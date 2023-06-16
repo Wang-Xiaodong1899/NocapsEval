@@ -6,12 +6,7 @@ import sys
 sys.path.append('/workspace/updown')
 
 import numpy as np
-import torch
-from torch import nn
-from torch.utils.data import DataLoader
 from tqdm import tqdm
-
-from allennlp.data import Vocabulary
 
 from updown.config import Config
 from updown.data.datasets import EvaluationDataset, EvaluationDatasetWithConstraints
