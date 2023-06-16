@@ -8,3 +8,13 @@ pip install torchtext
 pip install evalai==1.3.0
 
 ```
+login evalai
+```
+evalai set_token <your_token_here>
+```
+
+run inference
+
+```
+python scripts/inference.py
+```
