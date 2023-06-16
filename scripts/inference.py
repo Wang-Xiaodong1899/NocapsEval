@@ -19,6 +19,8 @@ from updown.utils.constraints import add_constraint_words_to_vocabulary
 
 
 if __name__ == "__main__":
+    with open("/workspace/nocap_eval_all_tk128.json", "r") as file:  
+        predctions = json.load(file)
     evaluator = NocapsEvaluator("val")
     evaluation_metrics = evaluator.evaluate(predictions)
 
