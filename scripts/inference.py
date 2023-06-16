@@ -1,6 +1,9 @@
 import argparse
 import json
 from typing import List
+import os
+import sys
+sys.path.append('/workspace/updown')
 
 import numpy as np
 import torch
