@@ -18,3 +18,7 @@ run inference
 ```
 python scripts/inference.py
 ```
+Or you just eval the val submission as follows:
+```
+evalai challenge 355 phase 742 submit --file xxx.json
+```
