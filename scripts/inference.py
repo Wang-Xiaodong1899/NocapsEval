@@ -3,7 +3,7 @@ import json
 from typing import List
 import os
 import sys
-sys.path.append('/workspace/updown')
+sys.path.append('/workspace/NocapsEval')
 
 import numpy as np
 from tqdm import tqdm
